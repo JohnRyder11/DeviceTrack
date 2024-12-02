@@ -8,7 +8,7 @@ namespace DeviceTracking.Dal.Concrete.EntityFramework.Context
         {
             base.OnConfiguring(optionsBuilder);
 
-            optionsBuilder.UseSqlServer("Data Source = C00TB015711; Initial Catalog = DeviceTrack; Integrated Security = true; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Data Source = DbNorthwind; Initial Catalog = DeviceTrack; Integrated Security = true; TrustServerCertificate=True");
             //optionsBuilder.UseSqlServer("Server=***; Database=***; Uid=**; Password=**;");
         }
 
