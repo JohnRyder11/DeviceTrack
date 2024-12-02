@@ -1,0 +1,6 @@
+@DeviceTracking.Api_HostAddress = http://localhost:5197
+
+GET {{DeviceTracking.Api_HostAddress}}/api/Cihaz/CihazListesi
+Accept: application/json
+
+###
